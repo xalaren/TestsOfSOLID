@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TestsOfSOLID/1.0.0": {
+        "dependencies": {
+          "SingleResponsibilityPrinciple": "1.0.0"
+        },
+        "runtime": {
+          "TestsOfSOLID.dll": {}
+        }
+      },
+      "SingleResponsibilityPrinciple/1.0.0": {
+        "runtime": {
+          "SingleResponsibilityPrinciple.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestsOfSOLID/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SingleResponsibilityPrinciple/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
