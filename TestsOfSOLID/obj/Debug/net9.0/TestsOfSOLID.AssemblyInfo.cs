@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestsOfSOLID")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b1cc77064625e3c3f84acebd0a0f14e9c692490")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestsOfSOLID")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestsOfSOLID")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

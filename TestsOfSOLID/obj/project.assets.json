@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "SingleResponsibilityPrinciple/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SingleResponsibilityPrinciple.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SingleResponsibilityPrinciple.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SingleResponsibilityPrinciple/1.0.0": {
+      "type": "project",
+      "path": "../SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.csproj",
+      "msbuildProject": "../SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "SingleResponsibilityPrinciple >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Карина\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj": {
+              "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
