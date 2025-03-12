@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsOfSOLID", "TestsOfSOLI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{E3492FD3-2C69-4BDD-8A38-DA3EDC77ECB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple.Tests", "SingleResponsibilityPrinciple.Tests\SingleResponsibilityPrinciple.Tests.csproj", "{70ED92BC-7AB3-46F3-9AE9-9A0442B3FD22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{E3492FD3-2C69-4BDD-8A38-DA3EDC77ECB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3492FD3-2C69-4BDD-8A38-DA3EDC77ECB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3492FD3-2C69-4BDD-8A38-DA3EDC77ECB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ED92BC-7AB3-46F3-9AE9-9A0442B3FD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ED92BC-7AB3-46F3-9AE9-9A0442B3FD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ED92BC-7AB3-46F3-9AE9-9A0442B3FD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ED92BC-7AB3-46F3-9AE9-9A0442B3FD22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
