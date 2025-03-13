@@ -2,7 +2,6 @@
 
 namespace SingleResponsibilityPrinciple.Tests;
 
-[TestFixture]
 public class RandomTextGeneratorTests
 {
     private RandomTextGenerator randomTextGen;

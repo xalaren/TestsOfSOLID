@@ -1,6 +1,8 @@
-﻿namespace SingleResponsibilityPrinciple;
+﻿using SingleResponsibilityPrinciple.Reports;
 
-public class ReportStorage
+namespace SingleResponsibilityPrinciple;
+
+public class ReportStorage : IStorage<Report>
 {
-    
+    public IList<Report> Items { get; } = new List<Report>();
 }

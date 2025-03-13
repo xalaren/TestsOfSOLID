@@ -4,16 +4,15 @@ namespace SingleResponsibilityPrinciple.Reports;
 
 public class Report
 {
-    public Report() { }
-    public Report(string content)
+    private readonly string content = string.Empty;
+    public string Content
     {
-        if (string.IsNullOrWhiteSpace(content))
+        get => content;
+        init
         {
-            Content = string.Empty;
-            return;
+            if (string.IsNullOrWhiteSpace(value)) return;
+
+            content = value;
         }
-        
-        Content = content;
     }
-    public required string Content { get; init; }
 }
