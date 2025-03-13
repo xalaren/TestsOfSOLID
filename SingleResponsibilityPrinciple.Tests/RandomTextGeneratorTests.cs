@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography;
-using SingleResponsibilityPrinciple.TextGen;
+﻿using SingleResponsibilityPrinciple.TextGen;
 
 namespace SingleResponsibilityPrinciple.Tests;
 
