@@ -4,21 +4,21 @@
     "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj": {
+    "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj",
-        "projectName": "TestsOfSOLID",
-        "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj",
+        "projectUniqueName": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj",
+        "projectName": "SingleResponsibilityPrinciple",
+        "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj",
         "packagesPath": "C:\\Users\\Карина\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\obj\\",
+        "outputPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Карина\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -44,8 +44,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -57,6 +57,104 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj",
+        "projectName": "TestsOfSOLID",
+        "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\TestsOfSOLID.csproj",
+        "packagesPath": "C:\\Users\\Карина\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\TestsOfSOLID\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Карина\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj": {
+                "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SingleResponsibilityPrinciple\\SingleResponsibilityPrinciple.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
