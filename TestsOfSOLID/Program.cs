@@ -8,15 +8,12 @@ var optionSelector = new OptionSelector
 (
     new List<Option>()
     {
-        new Option() { Title = "SRP", Action = SingleResponsibilityPrincipleExampleRun },
-        new Option() { Title = "SRP", Action = SingleResponsibilityPrincipleExampleRun },
-        new Option() { Title = "SRP", Action = SingleResponsibilityPrincipleExampleRun },
+        new Option() { Title = "SRP", Action = SingleResponsibilityPrincipleExampleRun }
     }
 );
 
 var consoleSelectableUI = new ConsoleSelectableUI(optionSelector, "Choose SOLID principle example: ");
 consoleSelectableUI.Run();
-// SingleResponsibilityPrincipleExampleRun();
 void SingleResponsibilityPrincipleExampleRun()
 {
     ITextGenerator randomTextGenerator = new RandomTextGenerator();
