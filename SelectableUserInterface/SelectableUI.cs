@@ -10,6 +10,11 @@ public abstract class SelectableUI(OptionSelector optionSelector, string title =
     public void Draw()
     {
         Clear();
+
+        if (!string.IsNullOrWhiteSpace(title))
+        {
+            Print(title + "\n\n", AccentColors.Main);
+        } 
         
         for (int i = 0; i < optionSelector.Options.Count; i++)
         {

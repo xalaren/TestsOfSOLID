@@ -14,6 +14,7 @@ var optionSelector = new OptionSelector
 
 var consoleSelectableUI = new ConsoleSelectableUI(optionSelector, "Choose SOLID principle example: ");
 consoleSelectableUI.Run();
+
 void SingleResponsibilityPrincipleExampleRun()
 {
     ITextGenerator randomTextGenerator = new RandomTextGenerator();

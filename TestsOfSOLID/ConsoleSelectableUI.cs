@@ -7,9 +7,6 @@ public class ConsoleSelectableUI(OptionSelector optionSelector, string title = "
     public override void Run()
     {
         Clear();
-        
-        if (!string.IsNullOrWhiteSpace(title)) Print(title, AccentColors.Main);
-        
         Draw();
         ReadKey();
     }
