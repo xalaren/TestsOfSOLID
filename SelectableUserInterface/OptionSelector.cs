@@ -12,7 +12,7 @@ public class OptionSelector(IList<Option> options) : ISelector<Option>
 
     public void Select()
     {
-        if (caretIndex < 0 && caretIndex >= Options.Count) return;
+        if (caretIndex < 0 || caretIndex >= Options.Count) return;
         selected = true;
         
         options[caretIndex].Action.Invoke();
