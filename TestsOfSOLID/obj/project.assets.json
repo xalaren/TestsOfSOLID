@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "OpenClosedPrinciple/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OpenClosedPrinciple.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenClosedPrinciple.dll": {}
+        }
+      },
       "SelectableUserInterface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -25,6 +35,11 @@
     }
   },
   "libraries": {
+    "OpenClosedPrinciple/1.0.0": {
+      "type": "project",
+      "path": "../OpenClosedPrinciple/OpenClosedPrinciple.csproj",
+      "msbuildProject": "../OpenClosedPrinciple/OpenClosedPrinciple.csproj"
+    },
     "SelectableUserInterface/1.0.0": {
       "type": "project",
       "path": "../SelectableUserInterface/SelectableUserInterface.csproj",
@@ -38,6 +53,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "OpenClosedPrinciple >= 1.0.0",
       "SelectableUserInterface >= 1.0.0",
       "SingleResponsibilityPrinciple >= 1.0.0"
     ]
@@ -70,6 +86,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\OpenClosedPrinciple\\OpenClosedPrinciple.csproj": {
+              "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\OpenClosedPrinciple\\OpenClosedPrinciple.csproj"
+            },
             "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SelectableUserInterface\\SelectableUserInterface.csproj": {
               "projectPath": "C:\\Users\\Карина\\RiderProjects\\TestsOfSOLID\\SelectableUserInterface\\SelectableUserInterface.csproj"
             },
