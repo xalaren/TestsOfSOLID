@@ -8,8 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SelectableUserInterface\SelectableUserInterface.csproj" />
-      <ProjectReference Include="..\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj" />
+        <ProjectReference Include="..\OpenClosedPrinciple\OpenClosedPrinciple.csproj" />
+        <ProjectReference Include="..\SelectableUserInterface\SelectableUserInterface.csproj" />
+        <ProjectReference Include="..\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj" />
     </ItemGroup>
 
 </Project>
